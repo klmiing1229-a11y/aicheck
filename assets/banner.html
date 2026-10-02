@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}
+body{width:1280px;height:640px;background:#07070c;font-family:-apple-system,"SF Pro Display","Inter","Helvetica Neue",sans-serif;color:#f2f2f7;overflow:hidden;position:relative}
+.glow1{position:absolute;left:-160px;top:-120px;width:720px;height:720px;background:radial-gradient(circle,rgba(124,58,237,.38),transparent 65%)}
+.glow2{position:absolute;right:-140px;bottom:-200px;width:760px;height:760px;background:radial-gradient(circle,rgba(34,211,238,.26),transparent 65%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,#000 25%,transparent 78%)}
+.word{position:absolute;left:84px;top:150px}
+.tag{font-size:15px;letter-spacing:.28em;color:#a78bfa;text-transform:uppercase;font-family:"SF Mono",Menlo,monospace}
+h1{font-size:176px;font-weight:800;letter-spacing:-.06em;line-height:1;margin-top:10px;background:linear-gradient(100deg,#fff 20%,#c4b5fd 60%,#67e8f9);-webkit-background-clip:text;color:transparent}
+.sub{font-size:34px;color:#c9c9d6;margin-top:14px;font-weight:500;letter-spacing:-.01em}
+.sub b{color:#fff;font-weight:600}
+.pill{position:absolute;left:84px;bottom:64px;font-family:"SF Mono",Menlo,monospace;font-size:20px;color:#9ca3af;padding:12px 20px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.04)}
+.pill span{color:#67e8f9}
+svg{position:absolute;right:0;top:0}
+</style></head><body>
+<style>h1{font-size:150px}</style>
+<div class="glow1"></div><div class="glow2"></div><div class="grid"></div>
+<svg width="600" height="640" viewBox="0 0 600 640" style="right:0">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<g transform="translate(230,140)">
+<rect width="310" height="360" rx="18" fill="#10101a" stroke="rgba(255,255,255,.16)"/>
+<rect x="0" y="0" width="310" height="6" rx="3" fill="url(#g)"/>
+<text x="24" y="42" fill="#9ca3af" font-family="Menlo,monospace" font-size="13" letter-spacing="2">AI ANSWER</text>
+<g fill="#2a2a3a"><rect x="24" y="66" width="250" height="9" rx="4.5"/><rect x="24" y="90" width="200" height="9" rx="4.5"/></g>
+<rect x="18" y="108" width="270" height="30" rx="7" fill="rgba(239,68,68,.12)" stroke="rgba(239,68,68,.55)"/><rect x="30" y="119" width="190" height="9" rx="4.5" fill="#5a2a33"/><circle cx="268" cy="123" r="6" fill="#ef4444"/>
+<g fill="#2a2a3a"><rect x="24" y="156" width="230" height="9" rx="4.5"/></g>
+<rect x="18" y="174" width="270" height="30" rx="7" fill="rgba(245,158,11,.10)" stroke="rgba(245,158,11,.5)"/><rect x="30" y="185" width="150" height="9" rx="4.5" fill="#5a4626"/><circle cx="268" cy="189" r="6" fill="#f59e0b"/>
+<g fill="#2a2a3a"><rect x="24" y="222" width="260" height="9" rx="4.5"/><rect x="24" y="246" width="180" height="9" rx="4.5"/></g>
+<rect x="18" y="264" width="270" height="30" rx="7" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.4)"/><rect x="30" y="275" width="170" height="9" rx="4.5" fill="#1f4650"/><circle cx="268" cy="279" r="6" fill="#22d3ee"/>
+<text x="24" y="334" fill="#a78bfa" font-family="Menlo,monospace" font-size="12">Check first → #1</text></g>
+<g transform="translate(150,330)" stroke="url(#g)" stroke-width="5" fill="none"><circle cx="0" cy="0" r="44" fill="rgba(7,7,12,.35)"/><path d="M32 32 L66 66" stroke-linecap="round" stroke-width="9"/></g>
+</svg>
+<div class="word"><div class="tag">AI skill · any model</div><h1>aicheck</h1><div class="sub">Know what to check <b>before you trust it.</b></div></div>
+<div class="pill"><span>&gt;</span> aicheck for my essay</div>
+</body></html>
